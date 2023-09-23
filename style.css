@@ -10,21 +10,26 @@
     box-sizing: border-box;
   }
   body{
-    background: #080808;
+    background-image:url(images/);
     color: #fff;
   }
-  header{
+  #header{
     width: 100%;
     height: 100vh;
     background-image: url(images/giga-chad.gif);
-    background-size: cover;
-    background-position: center;
+    background-size:auto;
+    background-size:60%;
+    background-repeat: no-repeat;
+    background-position: 90% center;
+    background-attachment: fixed;
   }
   .container{
-    padding:10px 10%;
+    padding:10px 10%;         
+                        
 
   }
   nav{
+    
     display: flex;
     align-items: center;
     justify-content: space-between;
